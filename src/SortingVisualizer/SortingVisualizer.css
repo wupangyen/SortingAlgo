@@ -1,0 +1,39 @@
+/* array-container contains array-bar*/
+
+.array-container {
+
+    /*An element with position: absolute; 
+    is positioned relative to the nearest positioned ancestor*/
+    /* https://www.w3schools.com/css/css_positioning.asp */
+    position:absolute;
+    /* vh :Relative to 1% of the height of the viewport*/
+    /*https://www.w3schools.com/cssref/css_units.asp*/
+    /*top:50vh;*/
+
+
+    /*position from the left 100 px*/
+    left: 100px;
+
+
+}
+/* for each array bar in array */
+.array-bar{
+    width:2px;
+    /*height:30px;*/
+    background-color:paleturquoise;
+
+    /*The display property specifies the display behavior (the type of rendering box) of an element.*/
+    /*https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=inline */
+    display: inline-block;
+
+    /*
+    If the margin property has two values:
+
+    margin: 25px 50px;
+    top and bottom margins are 25px
+    right and left margins are 50px
+
+    */
+    /*https://www.w3schools.com/css/css_margin.asp*/
+    margin: 0 1px;
+}
